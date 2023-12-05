@@ -57,3 +57,18 @@
     transform: scale(1);
   }
 }
+
+@media screen and (max-width: 600px) {
+  .button {
+    padding: 0.7rem 1.7rem;
+  }
+  .icon {
+    width: 1.6rem;
+    margin-right: 0.5rem;
+    display: flex;
+    align-items: center;
+  }
+  .badge {
+    margin-left: 0.8rem;
+  }
+}

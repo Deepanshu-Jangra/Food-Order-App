@@ -63,3 +63,9 @@
   background-color: #8a2b06;
   color: white;
 }
+
+@media screen and (max-width: 768px) {
+  .actions {
+    flex-direction: row;
+  }
+}

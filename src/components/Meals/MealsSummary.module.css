@@ -16,3 +16,12 @@
   font-size: 2rem;
   margin-top: 0;
 }
+
+@media screen and (max-width: 600px) {
+  p:last-of-type {
+    display: none;
+  }
+  h2 > span {
+    display: none;
+  }
+}
